@@ -1,2 +1,3 @@
-# phonegap-plugins
-Repository to hold CommTime's PhoneGap plugins
+# SplitScreen
+
+Plugin to add prerequisites for split screen capabilities on iOS.
