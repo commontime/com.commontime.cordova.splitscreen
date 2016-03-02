@@ -1,6 +1,6 @@
 {
   "name": "com.commontime.cordova.splitscreen",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "Commontime cordova split screen plugin.",
   "cordova": {
     "id": "com.commontime.cordova.splitscreen",
