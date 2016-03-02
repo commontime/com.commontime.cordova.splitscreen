@@ -1,0 +1,29 @@
+{
+  "name": "com.commontime.cordova.splitscreen",
+  "version": "0.0.3",
+  "description": "Commontime cordova split screen plugin.",
+  "cordova": {
+    "id": "com.commontime.cordova.splitscreen",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/commontime/com.commontime.cordova.splitscreen.git"
+  },
+  "keywords": [
+    "cordova",
+    "splitscreen",
+    "commontime",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Commontime Ltd",
+  "license": "MIT"
+}
