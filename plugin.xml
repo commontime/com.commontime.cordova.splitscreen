@@ -1,34 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         id="com.commontime.cordova.splitscreen"
-        version="1.1.0">
+        version="1.2.0">
 
-  <name>SplitScreen</name>
+<name>SplitScreen</name>
 
-  <asset src="www/splitscreen.js" target="js/splitscreen.js"/>
-
-  <js-module src="www/splitscreen.js" name="splitscreen">
-    <clobbers target="splitscreen" />
-  </js-module>
-
- <platform name="ios">
+  <platform name="ios">
 
     <config-file target="config.xml" parent="/widget">
       <feature name="SplitScreen">
         <param name="ios-package" value="SplitScreen" />
       </feature>
       <preference name="Orientation" value="all" />
-    </config-file>
-
-    <header-file src="src/ios/SplitScreen.h" target-dir="SplitScreenPlugin"/>
-    <source-file src="src/ios/SplitScreen.m" target-dir="SplitScreenPlugin"/>
-
-    <resource-file src="src/ios/Launch Screen.storyboard" target="Launch Screen.storyboard"/>
-    <resource-file src="src/ios/Launch Screen Image.png" target=" Launch Screen Image.png"/>
-    <resource-file src="src/ios/Launch Screen Background.png" target=" Launch Screen Background.png"/>
-
-    <config-file target="*-Info.plist" parent="UILaunchStoryboardName">                  
-     <string>Launch Screen</string>
     </config-file>
 
    <config-file target="*-Info.plist" parent="UIRequiresFullScreen">                  
